@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos | Rafael Willian</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px 20px 30px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .hero p {
+            color: #c7c7c7;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #141414;
+            border: 1px solid rgb(20, 236, 9);
+            border-radius: 10px;
+            padding: 18px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: rgb(20, 236, 9);
+        }
+
+        .stack {
+            color: #9fd5a0;
+            font-size: 0.95rem;
+        }
+
+        .descricao {
+            color: #d4d4d4;
+            line-height: 1.6;
+        }
+
+        .acoes {
+            margin-top: 14px;
+        }
+
+        .acoes a {
+            display: inline-block;
+            border: 1px solid rgb(20, 236, 9);
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-right: 8px;
+        }
+
+        .acoes a:hover {
+            background-color: rgb(20, 236, 9);
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            color: #9b9b9b;
+            padding: 30px 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="project.html">Projetos</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Projetos</h1>
+            <p>Alguns projetos e estudos práticos que venho desenvolvendo.</p>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h3>Calculadora Desktop</h3>
+                <p class="stack">Python + Flet</p>
+                <p class="descricao">Aplicativo de calculadora com interface gráfica e foco em lógica de eventos.</p>
+                <div class="acoes">
+                    <a href="../Calculadora/Calculadora.py">Ver código</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <h3>Snake Jogo</h3>
+                <p class="stack">Python + Pygame</p>
+                <p class="descricao">Versão clássica do Snake com pontuação, controle por teclado e game loop.</p>
+                <div class="acoes">
+                    <a href="../Snake jogo/snake.py">Ver código</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <h3>Matrix</h3>
+                <p class="stack">HTML + CSS + JavaScript</p>
+                <p class="descricao">Animação em canvas inspirada no efeito Matrix, com renderização contínua.</p>
+                <div class="acoes">
+                    <a href="../Matrix/index.html">Abrir projeto</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <h3>Demonstração iPhone</h3>
+                <p class="stack">HTML + CSS</p>
+                <p class="descricao">Página de demonstração visual com foco em layout e detalhes de interface.</p>
+                <div class="acoes">
+                    <a href="../iphone/index.html">Abrir projeto</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafael Willian. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
